@@ -1,16 +1,19 @@
 # OctoAcme Project Management Docs
 
-This directory contains OctoAcme’s project management guidance. Use this README as a starting point to understand the lifecycle and find the process details you need.
+This directory contains OctoAcme’s project management guidance. Use this README as the starting point to understand the lifecycle, find the right process artifact, and quickly orient new teammates to how work is managed across the project.
 
 ## How OctoAcme manages projects
 
-OctoAcme’s project lifecycle runs from initiation and planning through execution, release, and continuous improvement. During **initiation**, the team validates the business need, defines a measurable goal and success criteria, identifies stakeholders and resources, and records initial risks. The Product Lead and stakeholders review the one-pager and decide whether the work is ready to move into planning.
+OctoAcme follows a simple, repeatable lifecycle that keeps work aligned to customer value and delivery accountability:
 
-In **planning**, the team turns approved work into a prioritized, estimated backlog with clear acceptance criteria and a Definition of Done. It agrees milestones and a release plan, identifies dependencies, and records risks with owners and mitigation plans. During **execution**, the team delivers iterative increments and tracks work on a project board. The Project Manager coordinates delivery, schedules, risks, and communications; the Product Manager owns outcomes and priorities; developers implement and test; QA validates acceptance; and stakeholders provide input and approvals.
+- Initiation and approval: validate the business need, confirm stakeholders, define success metrics, and decide whether an idea is ready to become a planned effort.
+- Planning and prioritization: turn approved work into a backlog, estimate scope, define acceptance criteria, identify milestones, and manage dependencies and risks.
+- Execution and tracking: run the work through a clear delivery rhythm with standups, backlog tracking, PR review gates, quality checks, and regular progress updates.
+- Risk and communication: capture risks and blockers, communicate status to stakeholders, and escalate issues through the appropriate path when they affect delivery or business outcomes.
+- Release and deployment: confirm readiness, run smoke tests, release with a rollback plan, and communicate updates to stakeholders and support teams.
+- Retrospective and continuous improvement: capture lessons learned, turn them into action items, and keep improving the process over time.
 
-Communication and quality checks are part of day-to-day delivery. Teams use standups, a weekly delivery or PM–Product sync, demos or reviews, and regular stakeholder updates; the exact cadence can be agreed by the team. Progress, blockers, decisions, risks, and dependencies are made visible through the project board, risk register, and a shared status source. Quality practices include unit tests for new logic, integration tests where applicable, smoke tests for critical flows, and CI checks for tests, linting, and security scanning. Pull requests should be small where possible, linked to issues and acceptance criteria, and reviewed according to the team’s approval policy.
-
-Before **release**, the team confirms acceptance criteria, passing CI and security scans, release notes, smoke tests, and a rollback or mitigation plan. It deploys to staging for verification, deploys to production, and performs post-deployment checks and stakeholder communications. After each sprint, release, milestone, or incident, a **retrospective** captures learnings and assigns a small number of actionable improvements with owners, due dates, and success criteria.
+The program uses a lightweight project management model built around clear roles, visible ownership, defined milestones, shared artifacts, and regular communication.
 
 ## Process documents
 
@@ -22,3 +25,7 @@ Before **release**, the team confirms acceptance criteria, passing CI and securi
 - [Release & Deployment Guide](octoacme-release-and-deployment.md) — release readiness, deployment checks, rollback, incident response, and release notes.
 - [Retrospective & Continuous Improvement](octoacme-retrospective-and-continuous-improvement.md) — run retrospectives and track improvement actions.
 - [Roles and Personas](octoacme-roles-and-personas.md) — responsibilities, goals, and communication patterns for developers, Product Managers, and Project Managers.
+
+## Recommended starting point
+
+If you are new to a project, begin with the Project Management Overview and Project Initiation Guide, then move into Planning, Execution, and Release guidance as the initiative progresses.
